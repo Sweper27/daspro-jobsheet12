@@ -5,6 +5,7 @@ public class percobaan2 {
         if (y == 0) {
             return (1) ;
         } else {
+            System.out.print(x+(y>1 ? "x" : ""));
             return (x * hitungPangkat(x, y - 1)) ;
         }
     }
